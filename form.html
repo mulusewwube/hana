@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+  
+ 
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Personal Information</h1>
+            <p>Please fill in your details below</p>
+        </div>
+
+        <form>
+            <div class="input-group">
+                <label><i class="fas fa-user"></i>Full Name</label>
+                <input type="text" placeholder="Sosina Mengestae/ Hanamariam dires/Balemlay derage/Hana dese/Mahider mamaru/Asnaku" required>
+            </div>
+
+            <div class="grid-container">
+                <div class="input-group">
+                    <label><i class="fas fa-envelope"></i>Email</label>
+                    <input type="email" placeholder="name@gmail.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label><i class="fas fa-phone"></i>Phone</label>
+                    <input type="tel" placeholder="+2519000000">
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="input-group">
+                    <label><i class="fas fa-calendar-day"></i>Date of Birth</label>
+                    <input type="date">
+                </div>
+
+                <div class="input-group">
+                    <label><i class="fas fa-venus-mars"></i>Gender</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label><i class="fas fa-map-marker-alt"></i>Address</label>
+                <textarea rows="3" placeholder="Enter your full address"></textarea>
+            </div>
+
+            <div class="grid-container">
+                <div class="input-group">
+                    <label><i class="fas fa-city"></i>City</label>
+                    <input type="text" placeholder="Addis Ababa">
+                </div>
+
+                <div class="input-group">
+                    <label><i class="fas fa-flag"></i>State</label>
+                    <input type="text" placeholder="Addis Ababa">
+                </div>
+
+                <div class="input-group">
+                    <label><i class="fas fa-mail-bulk"></i>ZIP Code</label>
+                    <input type="text" placeholder="1000">
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Submit
+            </button>
+
+          <a href="member.html">Group Members</a>
+            
+        </form>
+    </div>
+</body>
+</html>
